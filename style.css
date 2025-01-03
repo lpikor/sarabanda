@@ -127,6 +127,26 @@ ul {
     background-color: #5D5F7144;
 }
 
+.recordings__list {
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.recordings__list li p {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+audio {
+    margin-top: 12px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #ffefee;
+}
+
 a {
     color: inherit;
 }
