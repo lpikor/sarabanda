@@ -134,13 +134,15 @@ ul {
     gap: 30px;
 }
 
+.recordings__list li {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .recordings__list li p {
     list-style-type: none;
     margin-left: 0;
-}
-
-audio {
-    margin-top: 12px;
 }
 
 audio::-webkit-media-controls-panel {
